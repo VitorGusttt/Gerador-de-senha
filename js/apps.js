@@ -20,7 +20,7 @@ function gerarSenha() {
 function copiar () {
     let copysenha = document.querySelector('#textoSenha')
     navigator.clipboard.writeText(copysenha.innerHTML)
-    alert("Senha copiada")
+    alert("copied password")
 
 
 };

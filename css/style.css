@@ -17,6 +17,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 nav{
@@ -72,4 +73,8 @@ header h1 {
 
 #conteudo #btnCopy:hover{
     font-size: 1.3em;
+}
+
+footer {
+    color: var(--text);
 }
