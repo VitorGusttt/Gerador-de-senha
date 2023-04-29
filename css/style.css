@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --bg: #353535;
+    --bg-box: #858585;
+    --text: #EBEBEB;
+}
+
+#container{
+    background-color: var(--bg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background: var(--bg-box);
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    width: 30%;
+}
+
+header{
+    margin: 10px;
+    text-align: center;
+}
+
+header h1 {
+    color: var(--text);
+    margin: 10px;
+    font-size: 2em;
+}
+
+#conteudo button{
+    border-radius: 30px;
+    font-size: 0.9em;
+    display: block;
+    width: 50%;
+    height: 30px;
+    margin:10px auto;
+    transition: ease-in-out 0.3s;
+}
+
+#conteudo button:hover{
+    width:55%;
+
+}
+
+#conteudo #textoSenha{
+    text-align: center;
+    color: var(--text);
+    border: var(--text) 1px solid;
+    width: 50%;
+    margin: 10px auto;
+}
+
+
+
+#conteudo #btnCopy{
+    text-align: center;
+    transition: ease-in-out 0.4s;
+    color: var(--text);
+
+}
+
+#conteudo #btnCopy:hover{
+    font-size: 1.3em;
+}
