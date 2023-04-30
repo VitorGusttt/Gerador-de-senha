@@ -24,7 +24,7 @@ nav{
     background: var(--bg-box);
     display: flex;
     flex-direction: column;
-    height: 260px;
+    height: fit-content;
     width: 30%;
 }
 
@@ -37,6 +37,22 @@ header h1 {
     color: var(--text);
     margin: 10px;
     font-size: 2em;
+}
+
+#conteudo #inputRange{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#conteudo #inputRange #rangeElementos{
+    width: 50%;
+}
+
+#conteudo #inputRange #spanValue{
+    color: var(--text);
+    font-size: 1.2em;
 }
 
 #conteudo button{
@@ -57,8 +73,9 @@ header h1 {
 #conteudo #textoSenha{
     text-align: center;
     color: var(--text);
-    border: var(--text) 1px solid;
-    width: 50%;
+    border: var(--text) 1px  solid;
+    padding: 10px;
+    width: fit-content;
     margin: 10px auto;
 }
 
@@ -68,8 +85,11 @@ header h1 {
     text-align: center;
     transition: ease-in-out 0.4s;
     color: var(--text);
+    margin: 10px;
 
 }
+
+
 
 #conteudo #btnCopy:hover{
     font-size: 1.3em;
