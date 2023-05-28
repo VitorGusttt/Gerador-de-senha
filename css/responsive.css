@@ -4,11 +4,14 @@
     }
 }
 
-
-
-@media (max-width: 400px){
+@media (max-width: 768px){
     nav{
-        height: 400px;
-        width: 90%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 450px){
+    nav{
+        width: 100%;
     }
 }
